@@ -1,0 +1,26 @@
+//Inheritance Example code Defined Below
+
+
+
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+Usage:
+Dog d = new Dog();
+d.eat();   // Inherited
+d.bark();
+
+
+Output:
+Eating...
+Barking...
+
